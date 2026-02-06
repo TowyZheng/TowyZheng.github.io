@@ -1,0 +1,15 @@
+title: Towy Zheng
+logo: /assets/img/headshot.jpg
+description: PhD Student in Astrophysics | Stellar Structure | FIRE-2 & GASOLINE
+theme: jekyll-theme-minimal
+show_downloads: false
+
+nav:
+  - name: About
+    link: /
+  - name: Research
+    link: /research/
+  - name: Hobbies
+    link: /hobbies/
+  - name: CV (PDF)
+    link: /assets/cv.pdf
