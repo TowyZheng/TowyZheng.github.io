@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+    background-color: #000;
+    color: #f5f5f7;
+    overflow-x: hidden;
+}
+
+.apple-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(20px);
+    z-index: 1000;
+}
+
+.apple-nav a {
+    color: #f5f5f7;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.parallax-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+}
+
+.parallax-bg {
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: url('galaxy-sim.jpg') center/cover; /* Upload your sim image! */
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.apple-hero-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    padding: 60px;
+    text-align: center;
+    transition: transform 0.1s ease-out;
+}
+
+.hobbies-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+}
+
+.hobby-card {
+    background: #1d1d1f;
+    padding: 40px;
+    border-radius: 20px;
+    transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.hobby-card:hover {
+    transform: scale(1.05);
+    background: #2d2d2f;
+}
