@@ -13,3 +13,19 @@ window.addEventListener('scroll', () => {
     let value = window.scrollY;
     bg.style.transform = `translateY(${value * 0.4}px)`;
 });
+
+const videoCards = document.querySelectorAll('.video-card');
+
+videoCards.forEach(card => {
+    const video = card.querySelector('video');
+
+    card.addEventListener('mouseenter', () => {
+        video.play();
+    });
+
+    card.addEventListener('mouseleave', () => {
+        video.pause();
+        // Optional: Reset to start when mouse leaves
+        // video.currentTime = 0; 
+    });
+});
