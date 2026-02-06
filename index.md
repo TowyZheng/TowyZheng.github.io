@@ -1,5 +1,5 @@
-# [Your Name]
-**PhD Student in Astrophysics** *Department of Physics & Astronomy | [University Name]*
+# Towy Zheng
+**PhD Student in Astrophysics** *Department of Physics & Astronomy | University of California, Merced*
 
 I study the formation and evolution of the Milky Way Galaxy using high-resolution cosmological simulations. My research focuses on the **stellar structure** of the Galactic disc and halo, utilizing the **FIRE-2** and **GASOLINE** codebases to bridge the gap between theoretical models and observational data.
 
